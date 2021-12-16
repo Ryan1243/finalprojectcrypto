@@ -1,0 +1,37 @@
+1.Create a React project.
+
+2.Install Axios package component.
+
+3.Using useState, useEffect hooks and axios we manage to fetch the coins data with promisses and retrieve the data of the backend database API.
+
+4. On App.js we will create a useEffect function and in that function we will use axios which will get the coin data of the API database using promise function argument.
+Then we will create a classname class components for each div using JSX and then return the classnames to the useEffect hooks axios function. 
+
+5. Then we will create a new file called Coin.js inside the file we will create an arrow function automaticly by typing rface on Visual Studio.
+In the function we will return all classnames class components and then detructure them in the callback arrow function.
+
+6. Going back to App.js we will create a function that in that function we will use hooks useEffect. 
+The function will get the value and will match data.
+Then we will create a handlechange function that will retrieve the value and will create an event when we will type in the input.
+In App.js we will create a function that helps us to filter the coins and displays whatever we typed in the input search bar 
+And also will make the input match the lowercase letters. 
+Then we will filter map the Coins using function that returns the key, name, price, image, symbol, market-cap.
+
+7.In Coin.js set a price change using JSX to be green if the price gets above 0 and red when the price gets below 0, 
+To do so we will need to use the coin-percent classname class component that will be effected by the Coin.css file. 
+Then we will set the price to be displayed in 2 decimals.
+Now we can add the price change taken out of the API backend database and add it into the App.js. 
+Returning the price in the App.js and destructure it in the Coin.js file.
+
+8. Add a total_volume of the API backend database into the Coin.js file and into the App.js file using JSX, 
+Then destructure the total_volume in the Coin.js file.
+
+9. Add Css adjustments to the project frontend by creating a new Coin.css file and importing the Css file into the App.js file.
+Create a Css style adjustments to each divs classes.
+
+10. Create an App.css file and import a font out of the google fonts web site.
+ In App.css file apply all parameters, placements, figures of the styles adjustments to all the App.js classes. 
+
+
+ 
+
